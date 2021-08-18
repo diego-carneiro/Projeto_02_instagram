@@ -1,36 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head> 
-        <meta charset="UTF-8"/>
-        <title>Instagram</title>
-        <link rel="stylesheet" href="reset.css" />
-        <link rel="stylesheet" href="style.css" />
-    </head>
 
-    <body>
-        <div class="barra-topo">
-                <ion-icon name="logo-instagram"></ion-icon>
-                <img class="logo-insta" src="logoinsta.png"/>
-            <div class="caixa-icones">    
-                <ion-icon name="paper-plane-outline"></ion-icon>
-                <ion-icon name="compass-outline"></ion-icon>
-                <ion-icon name="heart-outline"></ion-icon>
-                <ion-icon name="person-outline"></ion-icon>
+<head>
+    <meta charset="UTF-8" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="barra-topo">
+        <ion-icon name="logo-instagram" id="minilogo"></ion-icon>
+        <div class="barra-vertical-topo">
+        </div>
+        <div class="conteudo-barra-topo">
+            <img class="logo-insta" src="logoinsta.png" />
+            <input placeholder="Pesquisar" name="espaço-pesquisa" id="espaço-pesquisa">
+            <div class="caixa-icones">
+                <ion-icon class="icone-topo" name="paper-plane-outline"></ion-icon>
+                <ion-icon class="icone-topo" name="compass-outline"></ion-icon>
+                <ion-icon class="icone-topo" name="heart-outline"></ion-icon>
+                <ion-icon class="icone-topo" name="person-outline"></ion-icon>
             </div>
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    </body>
+    </div>
+    <div class="corpo-pagina">
+        <div class="story-feed">
+            <div class="story-box">
+                <div class="story-circle">
+                    <img class="story-img" src="gtr.jpg"/>
+                    <p class="story-name">GT-R</p>
+                </div>
+                <div class="story-circle">
+                    <img class="story-img" src="gtr.jpg"/>
+                    <p class="story-name">GT-R</p>
+                </div>
+                <div class="story-circle">
+                    <img class="story-img" src="gtr.jpg"/>
+                    <p class="story-name">GT-R</p>
+                </div>
+                <div class="story-circle">
+                    <img class="story-img" src="gtr.jpg"/>
+                    <p class="story-name">GT-R</p>
+                </div>
+            </div>
+            <div class="post-box">
+                <div class="topo-post">
+                    <img class="owner-photo" src="gtr.jpg"/>
+                    <p class="post-owner">GT-R</p>
+                    <ion-icon name="ellipsis-horizontal-outline" id="post-options"></ion-icon>
+                </div>
+                <img class="feed-picture" src="nissangtr.PNG" />
+                <div class="rodape-post">
+                    <ion-icon class="icone-topo" name="heart-outline"></ion-icon>
+                    <ion-icon class="icone-topo" name="heart-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="box-lateral">
+
+        </div>
+
+    </div>
 
 
-    
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>

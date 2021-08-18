@@ -1,24 +1,133 @@
 /*:::::Topo da Página:::::*/
 .barra-topo{
-    width: 935px;
-    height: 44px;
+    width: 1366px;
+    height: 54px;
     background-color: #FFFFFF;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e6e6e6;
-    
+    justify-content: center;
+    border: 1px 0 1px 0 solid #DBDBDB;
+}
+.barra-vertical-topo{
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+}
+.conteudo-barra-topo{
+    display: flex;
+    width: 880px;
+    justify-content: space-between;
+    align-items: center;
+}
+#minilogo{
+    margin-right: 11px;
 }
 .logo-insta{
-    margin-left: 20px;
-    border-left: 1px solid #e6e6e6;
+    margin-left: 10px;
     justify-content: flex-start;
 }
-.caixa-icones{
-    
-    background-color: blue;
+#espaço-pesquisa{
+    width: 215px;
+    height: 28px;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    text-align: center;
 }
+.icone-topo{
+    width: 18px;
+    height: 18px;
+    margin-left: 24px;
+}
+
 /*:::::Topo da Página:::::*/
+/*:::::Conteúdo da Página:::::*/
+.corpo-pagina{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+.box-lateral{
+    margin-top: 34px;
+    background-color: red; 
+    width: 300px;
+    height: 385px;
+}
+/*:::::Espaço de Story:::::*/
+.story-feed{
+    background-color: #E5E5E5;  
+}
+.story-box{
+    width: 614px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    margin: 34px 0 24px; 
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid #DBDBDB;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.story-circle{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin-left: 23px;
+    background-color: teal;
+}
+.story-img{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+.story-circle{
+    display: flex;
+    flex-wrap: wrap;
+}
+.story-name{
+    font-size: 12px;
+    text-align: center;
+}
+/*:::::Espaço de Story:::::*/
+/*:::::Espaço de Posts do Feed:::::*/
+.post-box{
+    width: 614px;
+    height: 750px;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+.topo-post{
+    display: flex;
+    align-items: center;
+    width: 614px;
+    height: 60px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+.owner-photo{
+    width: 32px;
+    height: 32px;
+    border-radius: 28px;
+    margin-left: 18px;
+    
+}
+.feed-picture{
+    width: 614px;
+}
+
+#post-options{
+    display: flex;
+    margin-right: 18.5px;
+    
+}
+/*:::::Espaço de Posts do Feed:::::*/
+/*:::::Conteúdo da Página:::::*/
 
 
 
@@ -30,8 +139,9 @@
 
 
 
-
-/* CSS TOPO*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
